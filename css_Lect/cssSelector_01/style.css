@@ -1,6 +1,16 @@
 
 
 /* attribute selector */
+[attribute_ajay="valueOfAttribute"]{
+    background: red;
+} 
+[ajay="gour"]{
+    background: red;
+}
+
+
+
+
 body{
     background-color: black;
     color: white;
@@ -29,3 +39,6 @@ span{
 #p_tag2{
 background: yellow;
 }
+
+
+
