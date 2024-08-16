@@ -7,16 +7,37 @@
 </head>
 <body>
     <h1>HTML Form</h1>
+    <h2>Flipkart Search</h2>
+    <form action="/03_Form/index.html">
+        <label for="flipkart">Flipkart : </label>
+        <input id="flipkart" type="text" placeholder="Search on Flipkart" name="F">
+    </form>
+    <br>
+    <br>
+    <h2>YouTube Search</h2>
+    <form action="/03_Form/">
+        <label for="youtube">YouTube : </label>
+        <input id="youtube" type="text" placeholder="search on YouTube" name="Y">
+    </form>
+    <br>
+    <br>
+    <h2>Search On My Website</h2>
     <form action="/">
         <label for="name">Name</label>
-        <input id="name" type="text" placeholder="Enter Name" name="q">
+        <input id="name" type="text" placeholder="Enter Name" name="q" required>
 
         <label for="email">Email</label>
-        <input id="email" type="email" placeholder="Enter Your Email " name="q">
+        <input id="email" type="email" placeholder="Enter Your Email " name="q" required>
 
         <label for="password">Password</label>
         <input type="password" name="q" id="password">
-
+        
+        <label for="radio">Radio Button</label>
+        <input id="radio" type="checkbox">
+        
+        <input type="file">
+        
+        
         <button>Press to submit</button>
     </form>
 </body>
