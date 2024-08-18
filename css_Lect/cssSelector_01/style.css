@@ -10,7 +10,7 @@
 
 
 
-
+/* element selector */
 body{
     background-color: black;
     color: white;
@@ -40,5 +40,14 @@ span{
 background: yellow;
 }
 
+/* adjacent selector */
+span input{
+    background: #ef13c3;
+}
+
+/* pseudo Selector */
+h1:hover{
+    color:#ef13c3 ;
+}
 
 
